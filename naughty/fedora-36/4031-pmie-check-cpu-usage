@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/work/bots/make-checkout-workdir/test/verify/check-system-info", line *, in testOverview
+    wait(lambda: progressValue(1) < 20)
+  File "/work/bots/make-checkout-workdir/test/common/testlib.py", line *, in wait
+    raise Error(msg or "Condition did not become true.")
+testlib.Error: Condition did not become true.
